@@ -23,7 +23,7 @@ print(f'Account: {account}, Worker ID: {worker_id}')
 
 # Load the configuration file
 config = configparser.ConfigParser()
-config_file_path = 'config.conf'
+config_file_path = '/root/code/xenminer/config.conf'
 
 if os.path.exists(config_file_path):
     config.read(config_file_path)
